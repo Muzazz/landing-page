@@ -68,9 +68,11 @@ header{
 
 .title button {
     background-color: #3882F6;
+    font-size: 15px;
+    font-weight: bold;
     color: white;
-    height: 25px;
-    width: 90px;
+    height: 30px;
+    width: 100px;
     border-radius: 8px;
     border-color: #3882F6;
     border: none;
