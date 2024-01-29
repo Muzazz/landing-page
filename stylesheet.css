@@ -41,8 +41,16 @@ header{
 .title {
     display: flex;
     flex-direction: column;
-    margin: 0vh 10vh 10vh 30vh;
     width: 400px;
+}
+
+.title h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.title h1, .title p {
+    margin: 0;
 }
 
 .title button {
@@ -53,6 +61,7 @@ header{
     border-radius: 8px;
     border-color: #3882F6;
     border: none;
+    margin-top: 10px;
 }
 
 .imgbox {
