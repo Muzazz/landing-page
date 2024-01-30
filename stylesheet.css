@@ -109,3 +109,21 @@ header{
     width: 250px;
 }
 
+.quotesec {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quotename {
+    display: flex;
+    justify-self: flex-end;
+}
