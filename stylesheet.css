@@ -161,3 +161,12 @@ header{
     border-radius: 8px;
     border: 2px solid #E5E7EB
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    height: 10vh;
+}
