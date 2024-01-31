@@ -127,3 +127,37 @@ header{
     display: flex;
     justify-self: flex-end;
 }
+
+.end {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 300px;
+}
+
+.call {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    width: 110vh;
+    height: 15vh;
+    border-radius: 10px;
+    color: #F9FAF8;
+}
+
+.calltext h2, .calltext p {
+    margin: 0;
+}
+
+.callbtn button {
+    background-color: #3882F6;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    height: 35px;
+    width: 100px;
+    border-radius: 8px;
+    border: 2px solid #E5E7EB
+}
